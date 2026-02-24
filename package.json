@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "bot": "node bot.js",
     "watch": "node index.js --watch",
     "analyze": "node index.js --sector=tech",
     "alert": "node index.js --alert --telegram",
