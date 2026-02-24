@@ -207,3 +207,43 @@ tariff-impact-analyzer/
 
 *Generated: 2026-02-24*
 *Version: 1.0.0*
+
+---
+
+## 🔍 Competitor Analysis (with Sources)
+
+### Direct Competitors
+
+| Company | Website | Pricing | Strengths | Weaknesses |
+|---------|---------|---------|----------|------------|
+| **Bloomberg Terminal** | [bloomberg.com](https://www.bloomberg.com) | ~$2,000/mo | Comprehensive data, professional | Extremely expensive, steep learning curve |
+| **Trade Economics** | [tradingeconomics.com](https://tradingeconomics.com) | $400/mo | Good macro data | No real-time tariff alerts |
+| **CNBC** | [cnbc.com](https://www.cnbc.com) | Free | Breaking news | No analysis, delayed |
+| **Reuters** | [reuters.com](https://www.reuters.com) | Free | Reliable source | No custom alerts |
+
+### Alternative Solutions
+
+| Solution | Website | Type | Notes |
+|----------|---------|------|-------|
+| **API** | [alphavantage.co](https://www.alphavantage.co) | Stock API | Could integrate |
+| **NewsAPI** | [newsapi.org](https://newsapi.org) | News API | For fetching tariff news |
+| **SEC API** | [sec.gov](https://www.sec.gov/edgar/searchedix) | Free | Official filings |
+
+### Our Differentiation
+
+1. **Telegram-first approach** - Fastest alerts (30 sec vs hours)
+2. **AI-powered analysis** - Not just news aggregation
+3. **Historical patterns** - 50+ years of tariff events
+4. **Sector scoring** - Quantified impact scores
+5. **Freemium model** - $0 entry, $19.99/mo Pro
+
+### References
+
+- [Bloomberg Terminal pricing](https://www.bloomberg.com/professional/product/market-data)
+- [Trade Economics features](https://tradingeconomics.com/features)
+- [SEC EDGAR API documentation](https://www.sec.gov/edgar/searchedix)
+- [News API comparison](https://newsapi.org/comparison)
+
+---
+
+*Competitor analysis updated: 2026-02-24*
