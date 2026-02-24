@@ -1,0 +1,250 @@
+{
+  "timestamp": "2026-02-24T07:12:09.324Z",
+  "summary": {
+    "totalNews": 3,
+    "sectorsAnalyzed": 7,
+    "highestImpact": "Manufacturing",
+    "lowestImpact": "Pharmaceuticals",
+    "overallRisk": "MEDIUM"
+  },
+  "sectors": [
+    {
+      "sector": "Manufacturing",
+      "impactScore": "4.0",
+      "sentiment": "🟡 CAUTIOUS",
+      "vulnerability": "HIGH",
+      "relevantNewsCount": 1,
+      "relevantNews": [
+        {
+          "title": "Trump administration announces new steel tariffs",
+          "description": "25% tariff on all steel imports, effective immediately",
+          "source": "Reuters",
+          "url": "https://reuters.com/...",
+          "publishedAt": "2026-02-24T07:12:09.323Z",
+          "country": "USA",
+          "keywords": [
+            "steel",
+            "tariff",
+            "import"
+          ]
+        }
+      ],
+      "stocks": [
+        "CAT",
+        "DE",
+        "BA",
+        "GE",
+        "MMM",
+        "HON"
+      ],
+      "recommendation": {
+        "action": "CAUTION",
+        "reason": "Monitor closely",
+        "risk": "MEDIUM"
+      }
+    },
+    {
+      "sector": "Agriculture",
+      "impactScore": "4.0",
+      "sentiment": "🟡 CAUTIOUS",
+      "vulnerability": "HIGH",
+      "relevantNewsCount": 1,
+      "relevantNews": [
+        {
+          "title": "China responds with tariffs on US agriculture",
+          "description": "China announces 25% tariff on US agricultural products",
+          "source": "Bloomberg",
+          "url": "https://bloomberg.com/...",
+          "publishedAt": "2026-02-24T07:12:09.324Z",
+          "country": "China",
+          "keywords": [
+            "china",
+            "agriculture",
+            "tariff"
+          ]
+        }
+      ],
+      "stocks": [
+        "ADM",
+        "BG",
+        "MOS",
+        "FDP",
+        "TR"
+      ],
+      "recommendation": {
+        "action": "CAUTION",
+        "reason": "Monitor closely",
+        "risk": "MEDIUM"
+      }
+    },
+    {
+      "sector": "Retail",
+      "impactScore": "2.0",
+      "sentiment": "🟢 POSITIVE",
+      "vulnerability": "MEDIUM",
+      "relevantNewsCount": 1,
+      "relevantNews": [
+        {
+          "title": "Trump administration announces new steel tariffs",
+          "description": "25% tariff on all steel imports, effective immediately",
+          "source": "Reuters",
+          "url": "https://reuters.com/...",
+          "publishedAt": "2026-02-24T07:12:09.323Z",
+          "country": "USA",
+          "keywords": [
+            "steel",
+            "tariff",
+            "import"
+          ]
+        }
+      ],
+      "stocks": [
+        "WMT",
+        "TGT",
+        "COST",
+        "HD",
+        "LOW",
+        "TJX"
+      ],
+      "recommendation": {
+        "action": "NEUTRAL",
+        "reason": "Low tariff impact expected",
+        "risk": "LOW"
+      }
+    },
+    {
+      "sector": "Technology",
+      "impactScore": "0.0",
+      "sentiment": "🟢 POSITIVE",
+      "vulnerability": "HIGH",
+      "relevantNewsCount": 0,
+      "relevantNews": [],
+      "stocks": [
+        "AAPL",
+        "MSFT",
+        "GOOGL",
+        "META",
+        "NVDA",
+        "TSLA",
+        "AMD",
+        "INTC"
+      ],
+      "recommendation": {
+        "action": "NEUTRAL",
+        "reason": "Low tariff impact expected",
+        "risk": "LOW"
+      }
+    },
+    {
+      "sector": "Energy",
+      "impactScore": "0.0",
+      "sentiment": "🟢 POSITIVE",
+      "vulnerability": "MEDIUM",
+      "relevantNewsCount": 0,
+      "relevantNews": [],
+      "stocks": [
+        "XOM",
+        "CVX",
+        "COP",
+        "SLB",
+        "EOG"
+      ],
+      "recommendation": {
+        "action": "NEUTRAL",
+        "reason": "Low tariff impact expected",
+        "risk": "LOW"
+      }
+    },
+    {
+      "sector": "Automotive",
+      "impactScore": "0.0",
+      "sentiment": "🟢 POSITIVE",
+      "vulnerability": "HIGH",
+      "relevantNewsCount": 0,
+      "relevantNews": [],
+      "stocks": [
+        "F",
+        "GM",
+        "TM",
+        "HMC",
+        "STLA"
+      ],
+      "recommendation": {
+        "action": "NEUTRAL",
+        "reason": "Low tariff impact expected",
+        "risk": "LOW"
+      }
+    },
+    {
+      "sector": "Pharmaceuticals",
+      "impactScore": "0.0",
+      "sentiment": "🟢 POSITIVE",
+      "vulnerability": "LOW",
+      "relevantNewsCount": 0,
+      "relevantNews": [],
+      "stocks": [
+        "JNJ",
+        "PFE",
+        "UNH",
+        "MRK",
+        "ABBV"
+      ],
+      "recommendation": {
+        "action": "NEUTRAL",
+        "reason": "Low tariff impact expected",
+        "risk": "LOW"
+      }
+    }
+  ],
+  "historicalContext": [
+    {
+      "date": "2018-03-01",
+      "event": "Trump announces steel tariffs (25%)",
+      "impact": "Steel +25%, Markets -2%",
+      "sector": "Manufacturing",
+      "severity": 8
+    },
+    {
+      "date": "2018-04-02",
+      "event": "China tariffs on pork ($500M)",
+      "impact": "Pork sector -8%",
+      "sector": "Agriculture",
+      "severity": 7
+    },
+    {
+      "date": "2018-06-15",
+      "event": "China tariffs on $50B goods",
+      "impact": "China markets -4%",
+      "sector": "Technology",
+      "severity": 7
+    },
+    {
+      "date": "2018-07-06",
+      "event": "China tariffs on $34B US goods",
+      "impact": "Escalation continues",
+      "sector": "Multiple",
+      "severity": 8
+    },
+    {
+      "date": "2018-08-23",
+      "event": "China tariffs on $60B US goods",
+      "impact": "Further escalation",
+      "sector": "Multiple",
+      "severity": 8
+    }
+  ],
+  "recommendations": {
+    "avoid": [],
+    "cautious": [
+      "Manufacturing",
+      "Agriculture"
+    ],
+    "safe": [
+      "Retail",
+      "Technology",
+      "Energy",
+      "Automotive",
+      "Pharmaceuticals"
+    ]
+  }
+}
