@@ -2,15 +2,20 @@
   "name": "tariff-impact-analyzer",
   "version": "1.0.0",
   "description": "Real-time tariff impact analysis with Telegram alerts",
-  "main": "index.js",
+  "main": "src/index.js",
+  "bin": {
+    "tariff-alert": "./bin/cli.js"
+  },
   "scripts": {
-    "start": "node index.js",
-    "bot": "node bot.js",
-    "watch": "node index.js --watch",
-    "analyze": "node index.js --sector=tech",
-    "alert": "node index.js --alert --telegram",
-    "history": "node index.js --history",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js",
+    "bot": "node src/bot.js",
+    "dashboard": "node src/dashboard.js",
+    "watch": "node src/index.js --watch",
+    "analyze": "node src/index.js --sector=tech",
+    "alert": "node src/index.js --alert --telegram",
+    "history": "node src/index.js --history",
+    "test": "jest",
+    "lint": "eslint src/"
   },
   "keywords": [
     "tariff",
@@ -21,15 +26,22 @@
     "telegram",
     "alerts"
   ],
-  "author": "",
+  "author": "Your Name",
   "license": "MIT",
   "dependencies": {
     "dotenv": "^16.3.1",
-    "node-fetch": "^3.3.2",
+    "express": "^4.18.2",
+    "socket.io": "^4.7.4",
+    "telegraf": "^4.15.3",
+    "axios": "^1.6.7",
     "better-sqlite3": "^9.4.3",
-    "telegraf": "^4.15.3"
+    "cron": "^3.1.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "eslint": "^8.56.0"
   },
   "engines": {
- ">=18    "node":.0.0"
+    "node": ">=18.0.0"
   }
 }
