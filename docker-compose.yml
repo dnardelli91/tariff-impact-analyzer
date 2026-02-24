@@ -1,0 +1,31 @@
+#!/bin/bash
+# Tariff Impact Analyzer - Docker Compose
+
+version: '3.8'
+
+services:
+  tariff-analyzer:
+    build: .
+    container_name: tariff-impact-analyzer
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+    command: ["node", "index.js", "--watch", "--alert", "--telegram"]
+
+  # Optional: Telegram Bot in separate container
+  # telegram-bot:
+  #   build: .
+  #   container_name: tariff-telegram-bot
+  #   env_file:
+  #     - .env
+  #   command: ["node", "index.js", "--watch", "--telegram"]
+  #   depends_on:
+  #     - tariff-analyzer
+
+networks:
+  default:
+    name: tariff-network
